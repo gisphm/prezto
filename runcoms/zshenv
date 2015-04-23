@@ -9,3 +9,10 @@
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+export GIT_EDITOR=vim
+export GPG_TTY=$(tty)
+export PINENTRY_BINARY="/usr/bin/pinentry-curses"
+export VIM_HOME=$HOME/tools/vim
+export IOJS_HOME=$HOME/tools/iojs
+export TERM=xterm-256color

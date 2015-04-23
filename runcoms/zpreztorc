@@ -86,6 +86,7 @@ zstyle ':prezto:module:ruby:rvm' auto-switch 'yes'
 # By default, only the main highlighter is enabled.
 zstyle ':prezto:module:syntax-highlighting' highlighters \
    'main' \
+   'line' \
    'brackets' \
    'pattern' \
    'cursor' \
